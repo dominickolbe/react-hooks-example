@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Todolist from './components/Todolist';
+import Todos from './components/Todos';
+
+const exampleData = [
+  { id: 1, title: 'Example Todo 1' },
+  { id: 2, title: 'Example Todo 2' },
+  { id: 3, title: 'Example Todo 3' },
+];
 
 class App extends Component {
   render() {
@@ -8,8 +14,8 @@ class App extends Component {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <h1>Todolist:</h1>
-            <Todolist />
+            <h1>Todos:</h1>
+            <Todos todos={exampleData} />
           </div>
         </div>
       </div>
