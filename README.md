@@ -1,8 +1,8 @@
 # react-hooks-example
 > react application to test new hooks API
 
-## Introducing Hooks
-[https://reactjs.org/docs/hooks-intro.html](https://reactjs.org/docs/hooks-intro.html)
+## Demo
+[https://react-hooks-example.herokuapp.com/](https://react-hooks-example.herokuapp.com/)
 
 ## Install dependencies
 make sure you have installed all dependencies before moving on
