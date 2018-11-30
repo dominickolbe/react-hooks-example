@@ -2,23 +2,19 @@
   "name": "react-hooks-example",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "npm run build"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "http": "^0.0.0",
     "react": "16.7.0-alpha.2",
     "react-dom": "16.7.0-alpha.2",
-    "react-scripts": "2.1.1",
-    "postinstall": "npm run build"
-  },
-  "engines": {
-    "node": ">9.0.0",
-    "npm": ">5.0.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "react-scripts": "2.1.1"
   },
   "eslintConfig": {
     "extends": "react-app"
